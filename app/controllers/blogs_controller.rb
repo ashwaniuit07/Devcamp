@@ -46,7 +46,6 @@ class BlogsController < ApplicationController
       end
     end
   end
-
   # DELETE /blogs/1 or /blogs/1.json
   def destroy
     @blog.destroy!
